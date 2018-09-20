@@ -48,11 +48,11 @@ header img {
   /* width: -webkit-calc(100% / 4); */
   height: 340px;
   margin: 0 10px;
-  background-color: darkseagreen;
+  /* background-color: darkseagreen; */
 }
 
 .video-bottom {
-  background-color: azure;
+  /* background-color: azure; */
   width: 210px;
   margin: 5px auto;
 }
