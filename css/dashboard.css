@@ -2,26 +2,29 @@ body {
   font-family: Helvetica, sans-serif;
 }
 h4 {
-  font-size: 1.3rem;
-  font-weight: 700;
+  font-size: 1.2rem;
+
+  font-weight: 500;
 }
 
 p {
   line-height: 1.2;
-  font-weight: 400;
+  font-weight: 300;
+  font-size: 0.95rem;
+  padding: 10px 0;
 }
 
 .container {
-  background-color: palevioletred;
+  /* background-color: palevioletred; */
   margin: 50px auto;
-  width: 1160px;
+  width: 1100px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 header {
-  width: 55%;
+  width: 50%;
 }
 
 header img {
@@ -31,37 +34,25 @@ header img {
 
 .video-section {
   width: 100%;
-  background-color: bisque;
+  /* background-color: bisque; */
   margin: 50px 0;
 }
 
 .video-container {
   display: flex;
-
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
 .video {
-  width: -webkit-calc(100% / 4);
-  margin: 10px 0;
-  background-color: yellow;
+  /* width: -webkit-calc(100% / 4); */
+  height: 340px;
+  margin: 0 10px;
+  background-color: darkseagreen;
 }
 
 .video-bottom {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  background-color: green;
-
-  height: 170px;
-  margin: 10px 10px;
-}
-
-.title {
-  background-color: cornflowerblue;
-}
-
-.description {
-  background-color: cadetblue;
+  background-color: azure;
+  width: 210px;
+  margin: 5px auto;
 }
