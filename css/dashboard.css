@@ -16,15 +16,12 @@ p {
 
 .container {
   /* background-color: palevioletred; */
-  margin: 50px auto;
-  width: 1100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 50px 0;
 }
 
 header {
-  width: 50%;
+  width: 40%;
+  margin: 0 auto;
 }
 
 header img {
@@ -32,27 +29,23 @@ header img {
   height: 200px;
 }
 
-.video-section {
-  width: 100%;
-  /* background-color: bisque; */
-  margin: 50px 0;
-}
-
 .video-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  /* background-color: cadetblue; */
+  margin: 50px auto;
+  max-width: 1100px;
 }
 
-.video {
-  /* width: -webkit-calc(100% / 4); */
-  height: 340px;
-  margin: 0 10px;
-  /* background-color: darkseagreen; */
+.inner-video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.video-box {
+  width: 250px;
+  margin-top: 10px;
 }
 
 .video-bottom {
-  /* background-color: azure; */
-  width: 210px;
-  margin: 5px auto;
+  padding: 5px 10px;
 }
